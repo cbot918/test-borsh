@@ -1,0 +1,30 @@
+{
+  "name": "try",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "jest test --runInBand",
+    "start": "nodemon main"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/parser": "^7.23.3",
+    "bn": "^1.0.5",
+    "borsh": "^1.0.0",
+    "nodemon": "^3.0.1"
+  },
+  "devDependencies": {
+    "@types/babel__core": "^7.1.2",
+    "@types/babel__template": "^7.0.2",
+    "@types/node": "^12.7.3",
+    "@typescript-eslint/eslint-plugin": "^5.28.0",
+    "@typescript-eslint/parser": "^5.28.0",
+    "bn.js": "^5.2.0",
+    "eslint": "^8.17.0",
+    "jest": "^26.0.1",
+    "typescript": "^4"
+  }
+}
