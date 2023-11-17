@@ -1,6 +1,5 @@
 const borsh = require("borsh");
 const BN = require("bn.js");
-const { test } = require("node:test");
 
 const schemaMixture = {
   struct: {
